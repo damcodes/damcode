@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -34,5 +34,55 @@
   }
   to {
     transform: rotate(360deg);
+  }
+} */
+
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-flow: row;
+}
+
+aside {
+  width: 20vw;
+  height: 100vh;
+}
+
+main {
+  width: 100%;
+  height: 100vh;
+  background: cornflowerblue;
+  color: white;
+}
+
+#sidebar-toggle {
+  display: none;
+}
+
+.toggle-btn {
+  display: none;
+  width: 4em;
+  height: 2em;
+  position: relative;
+  cursor: pointer;
+  background: yellow;
+  padding: 2px;
+}
+
+@media(max-width:1200px) {
+  .toggle-btn {
+    display: block;
+  }
+  aside {
+    width: 0vw;
+    transition: width 0.25s ease-out;
+  }
+  #sidebar-toggle:checked+aside {
+    width: 20vw;
   }
 }
