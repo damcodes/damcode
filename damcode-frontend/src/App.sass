@@ -10,24 +10,86 @@ $brown: #757763;
 $beige-light: #d0d1cd;
 $dark-green: #66930B;
 $black: #010200;
+$some-blue: #8FABC6;
+$white: #FFFFFF;
+$gold: #FFC300;
+$cream: #F5FDC6;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Nunito', sans-serif;
 $grey-dark: $brown;
 $grey-light: $beige-light;
-$primary: $black;
-$link: $dark-green;
+$primary: $dark-green;
+$link: $gold;
 $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $dark-green;
+$body-background-color: $some-blue;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
-$text: $black;
+$text: $white;
 
-$footer-background-color: $primary;
+$footer-background-color: $dark-green;
+$box-background-color: $black;
+$card-background-color: $dark-green;
+
+section
+  text-align: center;
+
+p.footer-text
+  color: $dark-green;
+
+#project-left-arrow, #project-right-arrow 
+  background-color: transparent;
+  color: $dark-green;
+  border: transparent;
+  font-size: 30px;
+  outline: none;
+  padding-top: 10px;
+
+#project-left-arrow:hover, #project-right-arrow:hover 
+  border: transparent;
+  color: $gold;
+
+h1.project-header
+  color: $white;
+
+p.project-info 
+  color: $black;
+  font-size: 16pt;
+
+#front-end-info 
+  width: 50%;
+  float: left;
+
+li.list-item 
+  font-size: 15px;
+
+div#sfw-card
+
+div#sfw-container
+  width: 800px;
+
+.iframe-container 
+  overflow: hidden;
+  /* 16:9 aspect ratio */
+  padding-top: 56.25%;
+  position: relative;
+
+
+.iframe-container iframe 
+   border: 0;
+   height: 100%;
+   left: 0;
+   position: absolute;
+   top: 0;
+   width: 100%;
+
+li.list-item 
+  text-align: center;
+
 
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
@@ -43,3 +105,6 @@ $footer-background-color: $primary;
 @import '../node_modules/bulma/sass/components/navbar.sass';
 @import '../node_modules/bulma/sass/components/level.sass';
 @import '../node_modules/bulma/sass/layout/footer.sass'
+@import '../node_modules/bulma/sass/elements/box.sass'
+@import "../node_modules/@glidejs/glide/src/assets/sass/glide.core";
+@import '../node_modules/bulma/sass/components/card.sass';
