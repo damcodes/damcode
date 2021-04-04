@@ -26,32 +26,22 @@ const Sfw = () => {
                                     client, plus a couple other views depending on your position in the company.
             </p>
 
-            <div id='front-end-info'>
+            <div id='front-back-info'>
               <div>
-                <h3 class='title has-text-centered'>Front End</h3>
+                <h4>Front End</h4>
+                <ul>
+                    <li class='front-back'>JS</li>
+                    <li class='front-back'>React</li>
+                    <li class='front-back'>JWT</li>
+                </ul>
               </div>
-              <div>
-                <div id='front-end-list' class='list'>
-                  <ul>
-                    <li class='list-item'>React</li>
-                    <li class='list-item'>Semantic UI React</li>
-                  </ul>
-                </div>
-              </div>
-            </div>
 
-            <div id='back-end-info' class='container'>
               <div>
-                <h3 class='title has-text-centered'>Back End</h3>
-              </div>
-              <div class='columns is-mobile is-centered'>
-                <div class='column is-5'>
-                  <div class='list'>
-                    <ul>
-                      <li class='list-item'>Ruby on Rails</li>
-                    </ul>
-                  </div>
-                </div>
+                <h4>Back End</h4>
+                <ul>
+                  <li class='front-back'>Rails</li>
+                  <li class='front-back'>Bcrypt</li>
+                </ul>
               </div>
             </div>
           </div>

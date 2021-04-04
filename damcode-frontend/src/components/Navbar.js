@@ -1,7 +1,7 @@
 
 const Navbar = () => {
   return(
-      <nav class="level navbar is-fixed-top is-primary">
+      <nav id='nav' class="level navbar is-fixed-top">
         <p class="level-item has-text-centered">
           <a href='#about-me' class="navbar-item">About Me</a>
         </p>
@@ -11,12 +11,8 @@ const Navbar = () => {
         </p>
 
         <p class="level-item has-text-centered">
-          <a href='#blog' class="navbar-item">Blog</a>
-        </p>      
-
-        <p class="level-item has-text-centered">
-          <a href='#contact-me' class="navbar-item">Contact Me</a>
-        </p>
+          <a href='https://davidmolina2810.github.io/programming-prose' target='_blank' rel='noreferrer' class="navbar-item">Blog</a>
+        </p> 
       </nav>
   )
 }

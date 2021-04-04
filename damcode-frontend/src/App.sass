@@ -10,7 +10,7 @@ $brown: #757763;
 $beige-light: #d0d1cd;
 $dark-green: #66930B;
 $black: #010200;
-$some-blue: #8FABC6;
+$some-blue: #768CA0;
 $white: #FFFFFF;
 $gold: #FFC300;
 $cream: #F5FDC6;
@@ -41,6 +41,12 @@ section
 p.footer-text
   color: $dark-green;
 
+nav#nav
+  background-color: $black;
+
+#dam-header
+  padding-top: 30px;
+
 #project-left-arrow, #project-right-arrow 
   background-color: transparent;
   color: $dark-green;
@@ -56,6 +62,23 @@ p.footer-text
 h1.project-header
   color: $white;
 
+#aboutme-header
+  color: $black;
+  font-size: 30pt;
+  padding-top: 8px;
+
+.aboutme-info
+  font-size: 16pt;
+  color: $black;
+  padding-bottom: 5px;
+  padding-left: 10px;
+
+#about-me-text
+  text-align: left;
+  width: 63%;
+  max-height: 600px;
+  overflow-x: auto;
+  
 p.project-info 
   color: $black;
   font-size: 16pt;
@@ -90,6 +113,55 @@ div#sfw-container
 li.list-item 
   text-align: center;
 
+#profile-pic
+  float: right;
+  padding: 10px;
+
+#sax
+  text-align: center;
+
+#contact-info
+  float: right;
+
+#about-me-text
+  display: flex;
+  flex-direction: column;
+
+#profile-pic-contact-info
+  display: flex;
+  flex-direction: column;
+  float: right;
+  align-items: center;
+
+#contact-me-card
+  background-color: $gold;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+
+#email-icon
+  font-size: 20pt;
+
+.contact-info
+  color: $black;
+
+#contact-info-header
+  font-weight: bold;
+  padding-top: 10px;
+  text-align: center;
+
+#front-back-info
+  display: flex;
+  justify-content: space-evenly;
+  color: $black;
+
+li.front-back
+  font-size: 16pt;
+
+li::marker
+  color: $black;
+  content: '-';
 
 // Import only what you need from Bulma
 @import '../node_modules/bulma/sass/utilities/_all.sass';
