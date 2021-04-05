@@ -1,5 +1,4 @@
 import Sfw from '../projects/Sfw'
-import Humblr from '../projects/Humblr'
 
 const Projects = () => {
 
@@ -12,8 +11,8 @@ const Projects = () => {
               <div class="glide__track" data-glide-el="track">
                 <ul class='glide__slides'>
                   <li class='glide__slide'><Sfw /></li>
-                  <li class='glide__slide'><Humblr /></li>
-                  <li class='glide__slide'>Third Project</li>
+                  {/* <li class='glide__slide'><Humblr /></li>
+                  <li class='glide__slide'>Third Project</li> */}
                 </ul>
               </div>
 

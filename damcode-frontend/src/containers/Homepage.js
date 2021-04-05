@@ -19,8 +19,8 @@ const Homepage = () => {
         <section class='hero is-primary is-fullweight'>
           <Navbar />
           <div class="hero-body container has-text-centered">
-            <h1 class="title is-1">David A. Molina</h1>
-            <h2 class='subtitle'>Full Stack Developer | Bibliophile | Musician</h2>
+            <h1 id='homepage-header' class="title is-1">David A. Molina</h1>
+            <h2 id='homepage-subheader' class='subtitle'>Full Stack Developer | Bibliophile | Musician</h2>
           </div>
         </section>
       </header>

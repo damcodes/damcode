@@ -28,19 +28,20 @@ const Sfw = () => {
 
             <div id='front-back-info'>
               <div>
-                <h4>Front End</h4>
+                <h4 class='front-back-headers'>Front End</h4>
                 <ul>
-                    <li class='front-back'>JS</li>
-                    <li class='front-back'>React</li>
-                    <li class='front-back'>JWT</li>
+                    <li class='front-back'><p class='front-back-text'>JS</p></li>
+                    <li class='front-back'><p class='front-back-text'>React</p></li>
+                    <li class='front-back'><p class='front-back-text'>Semantic UI</p></li>
                 </ul>
               </div>
 
               <div>
-                <h4>Back End</h4>
+                <h4 class='front-back-headers'>Back End</h4>
                 <ul>
-                  <li class='front-back'>Rails</li>
-                  <li class='front-back'>Bcrypt</li>
+                  <li class='front-back'><p class='front-back-text'>Rails</p></li>
+                  <li class='front-back'><p class='front-back-text'>Ruby</p></li>
+                  <li class='front-back'><p class='front-back-text'>Postgres</p></li>
                 </ul>
               </div>
             </div>

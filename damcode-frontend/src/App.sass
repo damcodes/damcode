@@ -13,7 +13,7 @@ $black: #010200;
 $some-blue: #768CA0;
 $white: #FFFFFF;
 $gold: #FFC300;
-$cream: #F5FDC6;
+$cream: #EBF3BD;
 
 // Update Bulma's global variables
 $family-sans-serif: 'Nunito', sans-serif;
@@ -25,7 +25,7 @@ $widescreen-enabled: false;
 $fullhd-enabled: false;
 
 // Update some of Bulma's component variables
-$body-background-color: $some-blue;
+$body-background-color: $cream;
 $control-border-width: 2px;
 $input-border-color: transparent;
 $input-shadow: none;
@@ -38,11 +38,36 @@ $card-background-color: $dark-green;
 section
   text-align: center;
 
+h1#homepage-header, h2#homepage-subheader
+  color: $gold;
+
 p.footer-text
   color: $dark-green;
 
 nav#nav
   background-color: $black;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+
+ul.nav-list
+  display: flex;
+  justify-content: center;
+  flex-grow: 1;
+
+li.nav-item
+  display: flex
+  justify-content: center;
+  flex-grow: 1;
+
+li.nav-item:hover
+  background-color: $dark-green;
+
+a.nav-link
+  flex-grow: 1
+
+p.nav-text
+  color: $gold;
 
 #dam-header
   padding-top: 30px;
@@ -60,10 +85,10 @@ nav#nav
   color: $gold;
 
 h1.project-header
-  color: $white;
+  color: $gold;
 
 #aboutme-header
-  color: $black;
+  color: $gold;
   font-size: 30pt;
   padding-top: 8px;
 
@@ -87,9 +112,6 @@ p.project-info
   width: 50%;
   float: left;
 
-li.list-item 
-  font-size: 15px;
-
 div#sfw-card
 
 div#sfw-container
@@ -112,6 +134,13 @@ div#sfw-container
 
 li.list-item 
   text-align: center;
+  font-size: 15px;
+
+p.front-back-text
+  padding-left: 1ch;
+
+.front-back-headers
+  padding-left: 2ch;
 
 #profile-pic
   float: right;
