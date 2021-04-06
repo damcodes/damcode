@@ -2,17 +2,17 @@
 const Sfw = () => {
   return(
     <div id='sfw-container' class='content is-large has-text-centered'>
-      <h1 class='project-header'>Seafood Wholesalers</h1>
-      <div class='iframe-container'>
-        <iframe  
-          src="https://www.youtube.com/embed/2A-eTECpTAc" 
-          title="YouTube video player" frameborder="0" 
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-          allowfullscreen>
-      </iframe>
-      </div>
 
       <div id='sfw-card' class='card'>
+        <h1 class='project-header'>Seafood Wholesalers</h1>
+        <div class='iframe-container'>
+          <iframe  
+            src="https://www.youtube.com/embed/2A-eTECpTAc" 
+            title="YouTube video player" frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen>
+          </iframe>
+        </div>
         <div class='card-content'>
           <div class='content'>
             <p class='project-info'>Seafood Wholesalers is a Houston based seafood distribution
