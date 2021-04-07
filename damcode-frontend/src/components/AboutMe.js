@@ -28,6 +28,7 @@ const AboutMe = () => {
 
               </div>
 
+              <div class='column is-12-desktop is-8-tablet is-4-mobile'>
                 <div id='about-me-text'>
                   <p class='aboutme-info'>&nbsp;&nbsp;&nbsp;&nbsp;I am a recent graduate of Flatiron School's 
                   Software Engineering program and a growth-oriented fullstack 
@@ -35,7 +36,7 @@ const AboutMe = () => {
                   collaboration, and creative problem solving to an organization 
                   with a culture of camaraderie and advancement.
                   </p>
-                  
+                    
                   <p class='aboutme-info'>&nbsp;&nbsp;&nbsp;&nbsp;My first experience with code was in 2019. I took 2 semesters of 
                     Python at University of Houston-Downtown&mdash;intro to Python and Data 
                     structures and algorithms with Python. I was completely captivated 
@@ -69,6 +70,7 @@ const AboutMe = () => {
                   </p>
                   <p id='sax' class='aboutme-info'>Sax player 🎷</p>
                 </div>
+              </div>
             </div>
           </div>
         </div>
