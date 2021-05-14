@@ -119,14 +119,14 @@ div#sfw-card
 div#sfw-container
   width: 800px;
 
-.iframe-container 
+.iframe-container
   overflow: hidden;
   /* 16:9 aspect ratio */
   padding-top: 56.25%;
   position: relative;
 
 
-.iframe-container iframe 
+.iframe-container iframe
    border: 0;
    height: 100%;
    left: 0;
@@ -144,38 +144,38 @@ p.front-back-text
 .front-back-headers
   padding-left: 2ch;
 
-#profile-pic
-  float: right;
-  padding: 10px;
-
 #sax
   text-align: center;
-
-#contact-info
-  float: right;
 
 #about-me-text
   display: flex;
   flex-direction: column;
 
-#profile-pic-contact-info
-  display: flex;
-  flex-direction: column;
-  float: right;
-  align-items: center;
-
 #contact-me-card
   background-color: $gold;
-  width: 300px;
+  text-align: center;
   display: flex;
   flex-direction: column;
-  text-align: left;
+  
+.aboutme-content-flex
+  display: flex;
+  align-items: stretch;
+  justify-content: space-between;
+
+#profile-pic-contact-info
+  width: 50%;
 
 #email-icon
   font-size: 20pt;
 
 .contact-info
   color: $black;
+
+.contact-info a 
+  color: $black;
+
+.contact-info a:hover
+  color: $dark-green
 
 #contact-info-header
   font-weight: bold;
