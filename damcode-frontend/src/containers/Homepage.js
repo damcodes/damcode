@@ -33,9 +33,9 @@ const Homepage = () => {
             <div class="level-item has-text-centered">
               <div>
                 <p class='heading'>Social</p>
-                <p class='title is-4'><a href='https://github.com/davidmolina2810'>GitHub</a></p>
-                <p class='title is-4'><a href='https://twitter.com/_davidamolina'>Twitter</a></p>
-                <p class='title is-4'><a href='https://www.linkedin.com/in/david-molina-23b51817b/'>LinkedIn</a></p>
+                <p class='title is-4'><a href='https://github.com/damcodes'>GitHub</a></p>
+                <p class='title is-4'><a href='https://twitter.com/damcodes'>Twitter</a></p>
+                <p class='title is-4'><a href='https://www.linkedin.com/in/damcodes/'>LinkedIn</a></p>
               </div>
             </div>
           </nav>
