@@ -1,4 +1,3 @@
-import ProfilePic from '../20201005_085702.jpg'
 
 const AboutMe = () => {
   return(

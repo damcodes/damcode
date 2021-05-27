@@ -1,5 +1,4 @@
 import Sfw from '../projects/Sfw'
-import Humblr from '../projects/Humblr'
 
 const Projects = () => {
 
