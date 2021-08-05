@@ -50,15 +50,8 @@ const AboutMe = () => {
                       React to develop some pretty cool apps.
                     </p>
 
-                    <p class='aboutme-info'>&nbsp;&nbsp;&nbsp;&nbsp;Having graduated from bootcamp, I plan on continuing
-                      to refine the skills I learned in Ruby and Javascript 
-                      by developing new apps using React and other frameworks. 
-                      I'm also avidly interested in mobile app development so I plan 
-                      on learning to build those as well.
-                    </p>
-
-                    <p class='aboutme-info'>&nbsp;&nbsp;&nbsp;&nbsp;In my free time I really like to read, watch 
-                      Netflix and animes, and learn new developer 
+                    <p class='aboutme-info'>&nbsp;&nbsp;&nbsp;&nbsp;In my free time I really like to read, stream 
+                      Netflix, and learn new developer 
                       skills/technologies.
                     </p>
                     <p id='sax' class='aboutme-info'>Sax player 🎷</p>
